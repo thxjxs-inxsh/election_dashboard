@@ -21,6 +21,16 @@ header {
 header nav {
     height: 100%;
 }
+header nav ul li a.highlight {
+    font-size: 50px;
+    font-weight: bold;
+    width: max-content;
+    font-family: Impact;
+}
+header nav ul li a.highlight:hover {
+    background-color: #1A3263;
+    color: white;
+}
 header nav ul {
     display: flex;
     justify-content: space-evenly;
