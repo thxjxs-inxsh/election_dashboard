@@ -1,0 +1,224 @@
+/*
+FAF7F0 - White
+D8D2C2 - Off white
+B17457 - Brown
+4A4947 - Text
+*/
+
+*{
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin:0;
+    padding:40px;
+    font-family:system-ui,-apple-system,"Calibri",sans-serif;
+    background-color: white;
+    color:#1f2933;
+}
+
+header {
+    background-color: #1A3263;
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+header nav {
+    height: 100%;
+}
+header nav ul li a.highlight {
+    font-size: 50px;
+    font-weight: bold;
+    width: max-content;
+    font-family: Impact;
+}
+header nav ul li a.highlight:hover {
+    background-color: #1A3263;
+    color: white;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header nav ul li {
+    list-style: none;
+    height: 100%;
+    width:100%;
+}
+header nav ul li a {
+    display: flex;              
+    align-items: center;      
+    justify-content: center; 
+    height: 100%;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+header nav ul li a:hover {
+    background-color:#BDE8F5 ;
+    color: #4A4947;
+}
+#lister{
+    background-color: rgba(128, 128, 128, 0.5);
+    width:70rem;
+    height:35rem;
+    border-radius: 10px;
+    margin:auto;
+    margin-top:5rem;
+    overflow-y: scroll;
+    padding:5px;
+    border: 2px solid #1A3263;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    padding-bottom: 10px;
+}
+.candidate{
+    background-color: white;
+    width:15rem;
+    height:20rem;
+    border-radius: 10px;
+    margin: auto;
+    margin-top:1rem;
+}
+.candidate img{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.candidate p{
+    padding-left:0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1A3263;
+    padding: 0.1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    color:whitesmoke;
+    font-size: 14px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    width:50%;
+}
+footer ul li {
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+*{
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.poll-wrapper{
+    max-width:720px;
+    margin:auto;
+    background:#ffffff;
+    padding:26px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0, 0, 0, 0.455);
+    border-top:6px solid #1A3263;
+    position: relative;
+    margin-top: 12rem;
+    }
+h2{
+    margin:0 0 18px;
+    font-size:1.25rem;
+    text-align:center;
+    color:#1A3263;
+    font-weight:700;
+}
+.to-win-label{
+    text-align:center;
+    font-weight:600;
+    color:#1A3263;
+    font-size:0.85rem;
+    margin-bottom:6px;
+    user-select:none;
+}
+.poll-bar{
+    position: relative;
+    display:flex;
+    height:36px;
+    border-radius:6px;
+    overflow:hidden;
+    background:#e5e7eb;
+}
+.segment{
+    height:100%;
+}
+.republican{
+    background:#E11D2E;
+}
+.democrat{
+    background:#1D4ED8;
+}
+.other {
+    background:#9CA3AF;
+}
+.labels{
+    margin-top:16px;
+    display:flex;
+    justify-content:space-between;
+    font-size:0.9rem;
+}
+.label{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    color:#374151;
+}
+
+.dot{
+    width:10px;
+    height:10px;
+    border-radius:50%;
+}
+.dot.republican{background:#E11D2E;}
+.dot.democrat{background:#1D4ED8;}
+.dot.other{background:#9CA3AF;}
+.meta{
+    margin-top:14px;
+    font-size:0.8rem;
+    color:#6b7280;
+    display:flex;
+    justify-content:space-between;
+}
+.win-line {
+    position:absolute;
+    top:0;
+    width:0;
+    height: 36px;
+    border-left:2px dotted #1A3263;
+    left:56.25%; 
+}
