@@ -29,6 +29,16 @@ header nav ul {
     padding: 0;
     height: 100%;
 }
+header nav ul li a.highlight {
+    font-size: 50px;
+    font-weight: bold;
+    width: max-content;
+    font-family: Impact;
+}
+header nav ul li a.highlight:hover {
+    background-color: #1A3263;
+    color: white;
+}
 header nav ul li {
     list-style: none;
     height: 100%;
